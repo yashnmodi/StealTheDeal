@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment"
+    android:isScrollContainer="true">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/user" />
+
+        <TextView
+            android:id="@+id/namebox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/josefin_sans_semibold"
+            android:textAlignment="center"
+            android:textSize="27sp" />
+
+        <TextView
+            android:id="@+id/mailbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/josefin_sans_semibold"
+            android:textAlignment="center"
+            android:textSize="27sp" />
+
+        <View
+            android:layout_marginTop="10dp"
+            style="@style/Divider"/>
+
+        <TextView
+            android:id="@+id/preferences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/josefin_sans_semibold"
+            android:textSize="22sp"
+            android:text="Preferences"
+             />
+
+        <View
+            android:layout_marginTop="10dp"
+            style="@style/Divider"/>
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/sex"
+                android:textSize="22sp"
+                android:fontFamily="@font/josefin_sans_semibold"
+                android:layout_width="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/funlabel"
+                android:textSize="22sp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/josefin_sans_semibold"
+                android:layout_width="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/foodlabel"
+                android:layout_width="200dp"
+                android:layout_marginTop="10dp"
+                android:textSize="22sp"
+                android:fontFamily="@font/josefin_sans_semibold"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/fashionlabel"
+                android:layout_width="200dp"
+                android:layout_marginTop="10dp"
+                android:textSize="22sp"
+                android:fontFamily="@font/josefin_sans_semibold"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content" />
+
+
+            <View
+                android:layout_marginTop="10dp"
+                style="@style/Divider"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/pushlabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/josefin_sans_semibold"
+            android:text="Push Notifications are On"
+            android:textSize="22sp" />
+
+        <View
+            android:layout_marginTop="10dp"
+            style="@style/Divider"/>
+
+        <TextView
+            android:id="@+id/changepwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/josefin_sans_semibold"
+            android:text="Change Password"
+            android:textSize="22sp" />
+
+        <View
+            android:layout_marginTop="10dp"
+            style="@style/Divider"/>
+
+        <Button
+            android:id="@+id/logoutbtn"
+            style="@style/CustomBtn"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal"
+            android:text="LOG OUT"
+             />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:text="Developed by Yash Modi"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/developer"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:text="Click to connect."/>
+
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

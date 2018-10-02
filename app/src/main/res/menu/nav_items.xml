@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navhome"
+        android:icon="@drawable/ic_home_white_24dp"
+        android:title="@string/nav_home"></item>
+    <item
+        android:id="@+id/navfashion"
+        android:icon="@drawable/ic_shopping_basket_white_24dp"
+        android:title="@string/nav_fashion"></item>
+    <item
+        android:id="@+id/navfood"
+        android:icon="@drawable/ic_local_dining_white_24dp"
+        android:title="@string/nav_food"></item>
+    <item
+        android:id="@+id/navfun"
+        android:icon="@drawable/ic_local_play_white_24dp"
+        android:title="@string/nav_fun"></item>
+    <item
+        android:id="@+id/navprofile"
+        android:icon="@drawable/ic_account_box_account_24dp"
+        android:title="@string/nav_profile"></item>
+
+</menu>

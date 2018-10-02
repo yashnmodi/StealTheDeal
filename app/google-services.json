@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "565244830617",
+    "firebase_url": "https://onedb97.firebaseio.com",
+    "project_id": "onedb97",
+    "storage_bucket": "onedb97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565244830617:android:4f2a8fabbf3f5f73",
+        "android_client_info": {
+          "package_name": "pentagon.stealthedeal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565244830617-5mejml9ms0lqinoq28d28dvua0fs0blp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pentagon.stealthedeal",
+            "certificate_hash": "7f5f791af7547efc079c101db131f6a965c0f927"
+          }
+        },
+        {
+          "client_id": "565244830617-80b9f5iep78nuukfqkuj4f9461uikvou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEPnsca83wnNPcJDhn2FNZKhH9zZ5SHYk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "565244830617-80b9f5iep78nuukfqkuj4f9461uikvou.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

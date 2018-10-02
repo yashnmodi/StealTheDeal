@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">StealTheDeal</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_fun">Fun</string>
+    <string name="nav_food">Food</string>
+    <string name="nav_fashion">Fashion</string>
+    <string name="nav_profile">Profile</string>
+</resources>
