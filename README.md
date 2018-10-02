@@ -1,5 +1,6 @@
 # StealTheDeal
 An android app.
+This app provides details of deals which are available in firebase-database. Other than that fragments are used. Login, logout, regiter, change password, map activity, everyhing is working.
 
 This android app is made by me for my android project. Later I decided to put it on github for laerning purpose to others.
 
